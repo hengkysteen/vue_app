@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === 'production'
-  ? '/dist/' // prod
+  ? '/vue_app/' // prod
   : '/', // dev
 })
